@@ -6,6 +6,8 @@ article link :https://blog.gaborkoos.com/posts/2026-09-24-How-to-Implement-a-Dis
 
 A small teaching project for a shared rate limit using TypeScript, Node.js, Express, and Redis. It follows the uploaded article's central transition: one theoretical arrival time (TAT), Redis server time, and one Lua script that atomically decides and updates the shared cell.
 
+![alt text](image.png)
+
 ## File structure
 
 ```text
