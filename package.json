@@ -1,0 +1,24 @@
+{
+  "name": "distributed-gcra-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Educational distributed GCRA rate limiter with TypeScript, Express, and Redis",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/src/server.js",
+    "dev": "tsx watch src/server.ts",
+    "client": "tsx src/client.ts",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "ioredis": "^5.4.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}
